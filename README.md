@@ -1,24 +1,26 @@
 # Rock, Paper, Scissors Arena: Challenge the Computer!
 This is a fun and interactive web-based implementation of the classic Rock, Paper, Scissors game, where you can challenge the computer. The game keeps track of your wins, losses, and ties, and provides a visually appealing experience with smooth animations and intuitive controls.
 
-Features:
-Interactive Gameplay: Choose between Rock, Paper, or Scissors with clickable buttons.
+# Features:
 
-Score Tracker: Displays the current score for wins, losses, and ties.
+1)Interactive Gameplay: Choose between Rock, Paper, or Scissors with clickable buttons.
 
-Animations: Includes smooth transition animations for choices, results, and score updates, creating an engaging and dynamic experience.
+2)Score Tracker: Displays the current score for wins, losses, and ties.
 
-Reset Button: A button to reset the game and start fresh at any point.
+3)Animations: Includes smooth transition animations for choices, results, and score updates, creating an engaging and dynamic experience.
 
-Responsive Design: The game is designed to work seamlessly on both desktop and mobile devices.
+4)Reset Button: A button to reset the game and start fresh at any point.
 
-How to Play:
-Click on either Rock, Paper, or Scissors to make your move.
+5)Responsive Design: The game is designed to work seamlessly on both desktop and mobile devices.
 
-The computer will randomly choose one of the three options.
+# How to Play:
 
-The result will be displayed: whether you win, lose, or tie.
+1)Click on either Rock, Paper, or Scissors to make your move.
 
-The score will update accordingly.
+2)The computer will randomly choose one of the three options.
 
-Press the Reset button to clear the score and start over.
+3)The result will be displayed: whether you win, lose, or tie.
+
+4)The score will update accordingly.
+
+5)Press the Reset button to clear the score and start over.
