@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.title {
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(#6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5 rem;
+    background: -webkit-linear-gradient(#6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.score {
+    background: #74ebd5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: pop-in 1s ease-out;
+}
+
+@keyframes pop-in {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.choice {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #2575fc;
+    color: white;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.choice:hover {
+    background: #6a11cb;
+    transform: translateY(-5px);
+}
+
+#result {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #dc3545;
+    color: white;
+    transition: background 0.3s;
+}
+
+.reset-btn:hover {
+    background: #a71d2a;
+}
